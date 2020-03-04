@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+.mycontentt{
+    display: flex;
+}
+
+.mylist{
+    list-style: none;
+}
+
+.mylist li{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.mylist li{
+    color: red;
+}
+
+.mylist .active{
+    color: green;
+    font-weight: bold;
+    background-color: rgb(211, 211, 211);
+}
+
+.mylist2{
+    list-style: none;
+}
+
+.contents{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.contents ul li{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: gray;
+}
+
+.mylist2 .activeli{
+    z-index: 1;
+    opacity: 1;
+}
